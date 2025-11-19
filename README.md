@@ -1,5 +1,5 @@
 # Upscalerr
-backend for me image upscaling website
+backend for my image upscaling website
 
 ## How to run
 ### Docker
