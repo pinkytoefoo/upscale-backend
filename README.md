@@ -13,15 +13,15 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --workers <amount of workers>
 ```
 
 ## Things to work on
-[ ] Add hardware monitoring (psutil)
-[ ] Improve logging
-[ ] Adding anime / manga upscalers
-[ ] Adding api safety measures (e.g. rate limiting, worker querying, ip tracking, etc.)
-[ ] Abstracting files into easier pieces
-[ ] Working with cloudflare workers
-[ ] Setting up frontend
-[ ] Docker composing frontend with this backend
-[X] Docker
+- [ ] Add hardware monitoring (psutil)
+- [ ] Improve logging
+- [ ] Adding anime / manga upscalers
+- [ ] Adding api safety measures (e.g. rate limiting, worker querying, ip tracking, etc.)
+- [ ] Abstracting files into easier pieces
+- [ ] Working with cloudflare workers
+- [ ] Setting up frontend
+- [ ] Docker composing frontend with this backend
+- [X] Docker
 
 ## Helpful links
 Scalable fastapi
