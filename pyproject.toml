@@ -1,0 +1,21 @@
+[project]
+name = "upscalerr"
+version = "0.1.0"
+description = "b"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.115.12",
+    "numpy==2.2.6",
+    "opencv-contrib-python-headless==4.12.0.88",
+    "pillow==11.3.0",
+    "requests==2.32.4",
+    "uvicorn==0.38.0",
+]
+
+# for future cloudflare implementation
+[project.optional-dependencies]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk",
+]
